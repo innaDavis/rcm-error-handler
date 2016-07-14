@@ -25,6 +25,7 @@ if (window.XMLHttpRequest) {
             var args = Array.prototype.slice.call(msg);
             msg = args.toString();
         }
+
         var description = "located at " + window.location.href;
 
         var http = new XMLHttpRequest();
